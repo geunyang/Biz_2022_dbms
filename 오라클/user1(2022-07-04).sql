@@ -1,0 +1,14 @@
+-- user1
+
+CREATE TABLE tbl_iolist (
+io_seq	NUMBER(100)	NOT NULL	PRIMARY KEY,
+io_date	VARCHAR(10)	NOT NULL,	
+io_time	VARCHAR(10)	NOT NULL,	
+io_pname	NVARCHAR2(50)	NOT NULL	,
+io_dname	NVARCHAR2(50)	NOT NULL	,
+io_dceo	NVARCHAR2(50)		,
+io_inout	VARCHAR2(1)	NOT NULL,	
+io_qty	NUMBER(100) NOT NULL	,
+io_price	NUMBER(100)	NOT NULL
+
+);
