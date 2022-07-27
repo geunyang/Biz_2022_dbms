@@ -33,3 +33,9 @@ st_tel	VARCHAR(16)	NOT NULL,
 st_addr	VARCHAR(125)
 );
 
+drop database schooldb;
+
+-- export 된 database import
+-- export 된 database 와 같은 이름으로 database 생성
+
+create database schoolDB;

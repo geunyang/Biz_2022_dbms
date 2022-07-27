@@ -204,3 +204,7 @@ group by sc_stnum, st_name;
 이 데이터를 쉽게 보고서 등으로 만들때는 pivot을 하여 column 방향으로 펼쳐 보는것이 편리하다
 */
 
+use schooldb;
+desc tbl_student;
+
+select * from tbl_score;
